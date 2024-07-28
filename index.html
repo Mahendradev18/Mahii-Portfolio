@@ -277,6 +277,24 @@
     .mail{
       width: 7%;
     }
+    .img {
+        object-fit: fill;
+        height: 255px;
+      }
+      h4{
+        border: 2px solid;
+        background-color: cadetblue;
+        position: relative;
+        top: 45px;
+      }
+      .proj{
+        position: relative;
+        top: 100px;
+      }
+      .arr{
+        background-color: rgb(85, 82, 79);
+        /* width: 50px; */
+      }
     </style>
 </head>
 <body>
@@ -381,7 +399,7 @@
           <h1 style="font-size: 9vh;">Projects</h1>
           </div>
 
-          <div class="s8">
+          <!-- <div class="s8">
             <div class="s81">
               <img class="pr1" src="./Screenshot 2024-07-28 104923.png">
               <h2 style="width: 100%; text-align: center;"> E-Commerce Website</h2>
@@ -395,6 +413,62 @@
               <button style="background-color: transparent; border-radius: 20px; width: 100px; height: 40px; position: relative; left: -5px;">GitHub</button>
               <button style="background-color: transparent; border-radius: 20px; width: 100px; height: 40px; position: relative; left: 5px;">Live Demo</button>
             </div>
+          </div> -->
+          <div id="crsl" class="carousel slide proj">
+            <div class="sc carousel-inner">
+              <div class="carousel-item active">
+                <img class="img" src="./Screenshot 2024-07-28 141931.png" />
+                <div class="carousel-caption">
+                  <h4 style= "color:black; text-shadow: 2px 1px gray">Project</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img" src="./Screenshot 2024-07-28 104923.png" />
+                <div class="carousel-caption">
+                  <h4 style="color:black; text-shadow: 2px 1px gray">E-Commerce</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img" src="./Screenshot 2024-07-28 142004.png" />
+                <div class="carousel-caption">
+                  <h4 style="color:black; text-shadow: 2px 1px gray">Keyboard</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img"
+                  src="./Screenshot 2024-07-28 142110.png"
+                />
+                <div class="carousel-caption">
+                  <h4 style="color:black; text-shadow: 2px 1px gray">Week Chart</h4>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="img"
+                  src="./Screenshot 2024-07-28 142158.png"
+                />
+                <div class="carousel-caption">
+                  <h4 style="color:black; text-shadow: 2px 1px gray">Traffic Signals</h4>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev arr"
+              type="button"
+              data-bs-target="#crsl"
+              data-bs-slide="prev"
+            >
+              <span class="carousel-control-prev-icon"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next arr"
+              type="button"
+              data-bs-target="#crsl"
+              data-bs-slide="next"
+            >
+              <span class="carousel-control-next-icon"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
        
           <div class="s5 s7">
